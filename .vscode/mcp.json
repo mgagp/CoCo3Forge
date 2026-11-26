@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "coco3-local": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:/project/CoCo3_MCP_Server/MCP/dist/index.js"
+      ],
+      "cwd": "C:/project/CoCo3_MCP_Server/MCP",
+      "env": {
+        "MAME_PATH": "C:/Tools/MAME/0.289/mame.exe",
+        "MAME_ROMPATH": "C:/Coco3Lab/mame/roms",
+        "DECB_PATH": "C:/project/CoCo3_MCP_Server/toolshed/decb.exe"
+      }
+    }
+  }
+}
