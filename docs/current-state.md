@@ -10,7 +10,11 @@
 
 - Corpus documentaire initial en création.
 - Architecture API: en définition.
-- Pipeline émulateur/build: à définir.
+- Émulateur principal: MAME, documenté dans
+  [ADR-0001-emulateur-principal.md](C:/project/coco3/docs/decisions/ADR-0001-emulateur-principal.md).
+- Pipeline émulateur/build: à construire autour de MAME.
+- Smoke test local via MCP disponible:
+  [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md).
 - Plan multi-fronts en place (H/S/R) avec suivi et checklists.
 
 ## Prochain objectif immédiat

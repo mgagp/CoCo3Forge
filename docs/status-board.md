@@ -21,11 +21,11 @@
 
 | Item | Statut | Dernière mise à jour | Notes |
 |---|---|---|---|
-| S-00 Choix émulateur principal | TODO |  |  |
+| S-00 Choix émulateur principal | DONE | 2026-11-26 | MAME ; voir ADR-0001 |
 | S-01 Build local minimal | TODO |  |  |
 | S-02 Inventaire assembleurs/outils | TODO |  |  |
-| S-03 API exploratoire v0 | TODO |  |  |
-| S-04 Scripts de validation | TODO |  |  |
+| S-03 API exploratoire v0 | IN_PROGRESS | 2026-11-26 | A0 observation/auto-sortie |
+| S-04 Scripts de validation | IN_PROGRESS | 2026-11-26 | A0 validé deux fois ; A1 prévu |
 
 ## Track R — Recherche / Documentation
 
@@ -34,4 +34,4 @@
 | R-00 ROM / BASIC / Disk docs | TODO |  |  |
 | R-01 Chipset CoCo 3 et specs graphiques | TODO |  |  |
 | R-02 Veille communauté (forums/produits) | TODO |  |  |
-| R-03 Candidats skills/MCP/outillage agent | TODO |  |  |
+| R-03 Candidats skills/MCP/outillage agent | IN_PROGRESS | 2026-11-26 | Candidat dbowlin évalué |

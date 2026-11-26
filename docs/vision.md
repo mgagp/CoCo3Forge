@@ -22,7 +22,11 @@ Créer un socle de contrôle “agentique” du CoCo 3, suffisamment complet pou
 
 ## Principes directeurs
 
+- Projet éducatif, solo et AI-first (« iFirst ») ; la cible n'est pas une qualité
+  industrielle.
 - **Priorité #1: interface disque**.
+- MAME est l'émulateur principal ; un autre émulateur n'est évalué que sur
+  signal concret de blocage.
 - Simplicité documentaire: lisible par humain et agent froid.
 - Itération pragmatique: preuves rapides, instrumentation claire, décisions traçables.
 - Séparer hypothèses vs faits validés.

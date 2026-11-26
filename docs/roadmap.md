@@ -16,8 +16,9 @@ Le projet progresse en parallèle sur:
 - Tester le contrôleur disque existant.
 
 ### S
-- Identifier un émulateur crédible.
+- Utiliser MAME comme émulateur principal sur Windows.
 - Définir un build local minimal.
+- Valider un scénario MAME minimal et reproductible.
 
 ### R
 - Démarrer la veille documentaire et communautaire.
@@ -30,8 +31,10 @@ Le projet progresse en parallèle sur:
 - Cadrer reset soft/hard et piste debug stop/step.
 
 ### S
-- Initialiser une API exploratoire locale.
-- Définir protocole de test des commandes.
+- Construire A0: session MAME dédiée, observation et preuves.
+- Construire A1/A2: charger puis créer Hello World par agent.
+- Définir protocole de test des commandes selon
+  [agent-automation-roadmap.md](C:/project/coco3/docs/agent-automation-roadmap.md).
 
 ### R
 - Cartographier les références techniques des composants CoCo 3.
@@ -43,7 +46,7 @@ Le projet progresse en parallèle sur:
 - Valider une stratégie d’observation d’affichage.
 
 ### S
-- Connecter API aux premiers tests pilotables.
+- Stabiliser une mini-surface API synchrone locale.
 - Lancer des tests de robustesse et recovery.
 
 ### R
@@ -53,7 +56,7 @@ Le projet progresse en parallèle sur:
 
 - Surface API stable
 - Scripts de tests end-to-end
-- Préparation skills/MCP/outillage agent
+- Réévaluer MCP seulement après validation des primitives locales
 
 ## Phase 5 — Expérimentation logicielle
 

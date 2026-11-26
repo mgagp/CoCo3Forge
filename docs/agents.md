@@ -2,14 +2,31 @@
 
 Ce document définit comment un agent (Copilot, Claude, etc.) reprend efficacement le travail sans contexte implicite.
 
+## Attention à la dictée vocale
+
+L'utilisateur emploie un outil de dictée qui peut transcrire incorrectement ce
+qu'il tente d'exprimer. Si une formulation paraît étrange, contradictoire ou
+hors contexte, ne pas l'interpréter immédiatement au pied de la lettre.
+L'agent doit d'abord la reconsidérer :
+
+- phonétiquement (rechercher un mot ou un acronyme proche à l'oral) ;
+- contextuellement (selon le projet, la phrase et les décisions connues) ;
+- en retenant l'interprétation la plus cohérente.
+
+En cas d'ambiguïté importante après cette relecture, demander une confirmation
+et proposer l'interprétation probable. Exemple : « iFirst » doit être compris
+comme « AI-first » dans ce projet.
+
 ## Ordre de lecture minimal
 
 1. [vision.md](C:/project/coco3/docs/vision.md)
 2. [product-spec.md](C:/project/coco3/docs/product-spec.md)
 3. [current-state.md](C:/project/coco3/docs/current-state.md)
-4. Dernière session dans [sessions/](C:/project/coco3/docs/sessions/)
-5. Dernière rétro dans [retrospectives/](C:/project/coco3/docs/retrospectives/)
-6. Décisions dans [decisions/](C:/project/coco3/docs/decisions/)
+4. [mcp-cold-start.md](C:/project/coco3/docs/mcp-cold-start.md)
+5. [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md)
+6. Dernière session dans [sessions/](C:/project/coco3/docs/sessions/)
+7. Dernière rétro dans [retrospectives/](C:/project/coco3/docs/retrospectives/)
+8. Décisions dans [decisions/](C:/project/coco3/docs/decisions/)
 
 ## Règles d’écriture (discoverability)
 
