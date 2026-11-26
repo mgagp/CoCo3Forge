@@ -1,0 +1,9 @@
+---
+description: Règles communes Coco3 pour les tâches de code et de maintenance GitHub
+alwaysApply: true
+---
+
+Lire `AGENTS.md` avant de travailler. Utiliser les procédures centralisées dans
+`docs/dependency-upgrade-workflow.md` ou
+`docs/security-quality-triage.md` selon la tâche. Ne pas dupliquer les règles
+dans des fichiers propres à Cursor.

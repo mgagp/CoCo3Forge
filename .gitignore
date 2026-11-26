@@ -1,0 +1,7 @@
+automation/mame/output/
+automation/mcp/output/
+automation/mame/__pycache__/
+*.pyc
+cfg/
+mame-snaps/
+snap/
