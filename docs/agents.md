@@ -17,6 +17,13 @@ En cas d'ambiguïté importante après cette relecture, demander une confirmatio
 et proposer l'interprétation probable. Exemple : « iFirst » doit être compris
 comme « AI-first » dans ce projet.
 
+Convention spécifique à ce projet:
+
+- si la dictée produit « cloud » mais que le contexte concerne l'assistant ou
+  le fichier `CLAUDE.md`, interpréter d'abord « Claude » ;
+- ne conserver « cloud » que lorsque le contexte traite réellement
+  d'infrastructure distante ou de publication.
+
 ## Ordre de lecture minimal
 
 1. [vision.md](C:/project/coco3/docs/vision.md)

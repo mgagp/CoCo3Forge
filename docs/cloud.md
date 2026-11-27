@@ -2,6 +2,10 @@
 
 Ce projet est local pour l’instant. Ce document prépare une future ouverture (wiki/site/partage).
 
+Note de vocabulaire: ce fichier concerne le **cloud** (outillage distant), pas
+**Claude** (assistant). En cas d'ambiguïté de dictée, se référer à
+[agents.md](C:/project/coco3/docs/agents.md).
+
 ## Principes
 
 - Local-first: vérité documentaire dans ce repo local.
