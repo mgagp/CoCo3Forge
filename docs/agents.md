@@ -40,6 +40,42 @@ comme « AI-first » dans ce projet.
   - source de validation (test, mesure, photo, log, doc)
   - prochaine action concrète
 
+## Politique de langue du projet
+
+Objectif: garder un corpus lisible pour l'équipe et pour les agents, sans
+double maintenance.
+
+### Règles de base
+
+1. **Une seule langue par document** (pas de mélange FR/EN au fil du texte).
+2. **Respecter la langue existante du document** ; ne pas basculer
+   spontanément.
+3. **Pas de traduction parallèle systématique** d'un même contenu.
+4. **Noms techniques en anglais**: API, fonctions, symboles, identifiants,
+   noms de fichiers techniques.
+5. **Conventions de commit et code**: anglais pour le code et les messages
+   exposés publiquement.
+
+### Cible par type de contenu
+
+- **Public/externe (anglais)**:
+  - README principal
+  - guides d'utilisation partagés
+  - issues/PR GitHub
+  - ADR de référence destinés au partage
+- **Exploration interne (français)**:
+  - notes de laboratoire
+  - journaux d'expérimentation
+  - brouillons d'architecture et réflexions de travail
+
+### Règle agentique explicite
+
+Quand un agent crée ou modifie un document:
+
+- il conserve la langue du document ;
+- il applique les termes techniques déjà utilisés dans le projet ;
+- il n'introduit pas de seconde version traduite sauf demande explicite.
+
 ## Progressive disclosure pragmatique
 
 ### Niveau 1 (2-5 minutes)
