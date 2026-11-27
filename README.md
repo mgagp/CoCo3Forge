@@ -1,6 +1,21 @@
-# Coco3 Revival Lab
+# CoCo3Forge
 
-Guide local pour concevoir et documenter des interfaces de contrôle d’un **Tandy Color Computer 3 (CoCo 3)** depuis un PC, avec une approche progressive: d’abord le contrôle matériel, ensuite l’expérimentation logicielle.
+![CoCo3Forge logo](./media/logo-coco3forge.svg)
+
+**An AI-first retrocomputing laboratory**
+
+Un laboratoire pour créer, expérimenter et faire revivre le **Tandy Color
+Computer 3**, sur émulateur comme sur matériel réel.
+
+## Positionnement
+
+Le projet comporte deux volets complémentaires:
+
+1. **Volet MCP (fork upstream validé localement)**  
+   Industrialiser un chemin de contrôle agentique basé MCP pour l'émulation.
+2. **Volet laboratoire hardware/API**  
+   Concevoir progressivement une façade d'API commune pouvant cibler un CoCo 3
+   simulé ou réel.
 
 ## Objectifs
 
