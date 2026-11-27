@@ -15,6 +15,8 @@
 - Pipeline émulateur/build: à construire autour de MAME.
 - Smoke test local via MCP disponible:
   [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md).
+- Smoke test assembleur via MCP disponible:
+  [mcp-asm-smoke-test.md](C:/project/coco3/docs/mcp-asm-smoke-test.md).
 - Plan multi-fronts en place (H/S/R) avec suivi et checklists.
 
 ## Prochain objectif immédiat

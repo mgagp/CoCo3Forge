@@ -22,10 +22,10 @@
 | Item | Statut | Dernière mise à jour | Notes |
 |---|---|---|---|
 | S-00 Choix émulateur principal | DONE | 2026-11-26 | MAME ; voir ADR-0001 |
-| S-01 Build local minimal | TODO |  |  |
-| S-02 Inventaire assembleurs/outils | TODO |  |  |
+| S-01 Build local minimal | DONE | 2026-11-27 | ASM hello compilé + DSK + exécution auto via MCP |
+| S-02 Inventaire assembleurs/outils | DONE | 2026-11-27 | LWTOOLS (lwasm) + ToolShed (decb) retenus |
 | S-03 API exploratoire v0 | IN_PROGRESS | 2026-11-26 | A0 observation/auto-sortie |
-| S-04 Scripts de validation | IN_PROGRESS | 2026-11-26 | A0 validé deux fois ; A1 prévu |
+| S-04 Scripts de validation | IN_PROGRESS | 2026-11-27 | BASIC + ASM hello via MCP ; durcir assertions OCR/screen |
 
 ## Track R — Recherche / Documentation
 

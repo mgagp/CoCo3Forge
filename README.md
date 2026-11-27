@@ -37,6 +37,7 @@ The project has two complementary tracks:
 6. Close the session with a retro using [RETRO_TEMPLATE.md](C:/project/coco3/docs/retrospectives/RETRO_TEMPLATE.md)
 7. For local MCP validation, follow [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md)
 8. For cold-start agent onboarding, follow [mcp-cold-start.md](C:/project/coco3/docs/mcp-cold-start.md)
+9. For assembly flow validation through MCP, follow [mcp-asm-smoke-test.md](C:/project/coco3/docs/mcp-asm-smoke-test.md)
 
 ## Documentation structure
 
@@ -50,6 +51,7 @@ The project has two complementary tracks:
   - [security-quality-triage.md](C:/project/coco3/docs/security-quality-triage.md): security/quality alert triage
   - [upstream-contribution-policy.md](C:/project/coco3/docs/upstream-contribution-policy.md): upstream contribution policy
   - [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md): local `Hello` validation through the MCP fork
+  - [mcp-asm-smoke-test.md](C:/project/coco3/docs/mcp-asm-smoke-test.md): assembly pipeline validation (lwasm + decb + MCP run)
   - [github-labels.md](C:/project/coco3/docs/github-labels.md): priorities and GitHub label taxonomy
   - [cloud.md](C:/project/coco3/docs/cloud.md): cloud/remote tooling conventions
   - [mcp-cold-start.md](C:/project/coco3/docs/mcp-cold-start.md): single entry point for local paths + quick MCP validation
