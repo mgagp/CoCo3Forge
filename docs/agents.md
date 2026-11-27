@@ -100,6 +100,7 @@ Quand un agent crée ou modifie un document:
 2. Rétro (template)
 3. Mise à jour état courant
 4. Si nécessaire, création d’une décision (ADR légère)
+5. **Commande de revalidation utilisateur** (copiable telle quelle)
 
 ## Place du verbatim (recommandée)
 
