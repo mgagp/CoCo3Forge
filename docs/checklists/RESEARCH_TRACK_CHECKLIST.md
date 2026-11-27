@@ -7,6 +7,7 @@
 - [ ] Ajouter liens/résumés dans le corpus
 - [ ] Ajouter verbatim utile si pertinent
 - [ ] Identifier impacts sur H/S
-- [ ] Mettre à jour [status-board.md](C:/project/coco3/docs/status-board.md)
+- [ ] Mettre à jour [status-board.md](/docs/status-board.md)
 - [ ] Créer note de session
 - [ ] Faire rétro de session
+

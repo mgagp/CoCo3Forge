@@ -172,12 +172,12 @@ Un candidat de référence a été découvert :
 Son pont Node/Lua a été validé avec MAME 0.289 localement. La recommandation est
 de le forker comme implémentation candidate sans remplacer le corpus produit ;
 voir
-[evaluation-coco3-mcp-server.md](C:/project/coco3/docs/evaluation-coco3-mcp-server.md).
+[evaluation-coco3-mcp-server.md](/docs/evaluation-coco3-mcp-server.md).
 
 Le fork est désormais disponible dans
 <https://github.com/mgagp/CoCo3_MCP_Server>. Sa gouvernance, ses permissions, ses
 branches et la contribution upstream sont définies dans
-[github-fork-workflow.md](C:/project/coco3/docs/github-fork-workflow.md).
+[github-fork-workflow.md](/docs/github-fork-workflow.md).
 
 ## Stratégie autour d'une session déjà ouverte
 
@@ -209,11 +209,12 @@ référence canonique.
 
 ## Premier prototype
 
-Le dossier [`automation/mame/`](C:/project/coco3/automation/mame/) contient le
+Le dossier [`automation/mame/`](/automation/mame/) contient le
 prototype A0 :
 
 ```bash
 python automation/mame/run_smoke.py \
   --disk C:/Coco3Lab/mame/disks/hello.dsk
 ```
+
 

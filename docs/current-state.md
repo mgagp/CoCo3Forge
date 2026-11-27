@@ -8,19 +8,23 @@
 
 ## Statut logiciel
 
-- Corpus documentaire initial en création.
-- Architecture API: en définition.
+- Corpus documentaire initial en place et évolutif.
+- Architecture API: en définition, avec séparation explicite entre
+  **contrat fonctionnel de contrôle** et **mode d'exposition MCP**.
 - Émulateur principal: MAME, documenté dans
-  [ADR-0001-emulateur-principal.md](C:/project/coco3/docs/decisions/ADR-0001-emulateur-principal.md).
-- Pipeline émulateur/build: à construire autour de MAME.
+  [ADR-0001-emulateur-principal.md](/docs/decisions/ADR-0001-emulateur-principal.md).
+- Baseline logicielle validée:
+  - pipeline BASIC via MCP;
+  - pipeline assembleur via MCP (lwasm + decb + exécution auto MAME).
 - Smoke test local via MCP disponible:
-  [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md).
+  [mcp-local-smoke-test.md](/docs/mcp-local-smoke-test.md).
 - Smoke test assembleur via MCP disponible:
-  [mcp-asm-smoke-test.md](C:/project/coco3/docs/mcp-asm-smoke-test.md).
+  [mcp-asm-smoke-test.md](/docs/mcp-asm-smoke-test.md).
 - Plan multi-fronts en place (H/S/R) avec suivi et checklists.
 
 ## Prochain objectif immédiat
 
-1. Exécuter [HARDWARE_BRINGUP_CHECKLIST.md](C:/project/coco3/docs/checklists/HARDWARE_BRINGUP_CHECKLIST.md).
-2. Compléter l’inventaire matériel initial dans [status-board.md](C:/project/coco3/docs/status-board.md).
-3. Lancer la baseline logicielle avec [SOFTWARE_BASELINE_CHECKLIST.md](C:/project/coco3/docs/checklists/SOFTWARE_BASELINE_CHECKLIST.md).
+1. Exécuter [HARDWARE_BRINGUP_CHECKLIST.md](/docs/checklists/HARDWARE_BRINGUP_CHECKLIST.md).
+2. Compléter l'inventaire matériel initial dans [status-board.md](/docs/status-board.md).
+3. Lancer la baseline logicielle avec [SOFTWARE_BASELINE_CHECKLIST.md](/docs/checklists/SOFTWARE_BASELINE_CHECKLIST.md).
+

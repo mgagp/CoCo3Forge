@@ -30,7 +30,7 @@ Chaque session choisit un focus principal (H, S ou R) et peut inclure un micro-o
 ### H-01 — Inventaire et qualification matériel
 - Lister chaque composant/câble/adaptateur.
 - Capturer marque/modèle/version/état.
-- Noter les inconnues et besoins d’info.
+- Noter les inconnues et besoins d'info.
 
 ### H-02 — Validation contrôleur disque existant
 - Tester connectivité PC.
@@ -60,7 +60,7 @@ Chaque session choisit un focus principal (H, S ou R) et peut inclure un micro-o
 ## Règle de validation
 
 Toute étape a:
-- un critère d’entrée,
+- un critère d'entrée,
 - un test de sortie,
 - une preuve (note, log, photo, résultat mesuré).
 
@@ -74,11 +74,12 @@ Toute étape a:
 
 ## Gouvernance documentaire
 
-- Suivi global: [status-board.md](C:/project/coco3/docs/status-board.md)
-- Checklists: [checklists/](C:/project/coco3/docs/checklists/)
-- Journal de session: [sessions/](C:/project/coco3/docs/sessions/)
-- Rétrospectives: [retrospectives/](C:/project/coco3/docs/retrospectives/)
+- Suivi global: [status-board.md](/docs/status-board.md)
+- Checklists: [checklists/](/docs/checklists/)
+- Journal de session: [sessions/](/docs/sessions/)
+- Rétrospectives: [retrospectives/](/docs/retrospectives/)
 
 ## Git local (quand prêt)
 
-Déclencher l’initialisation Git locale après la première baseline documentaire stabilisée, pour versionner le corpus et les décisions sans dépendre d’un remote.
+Déclencher l'initialisation Git locale après la première baseline documentaire stabilisée, pour versionner le corpus et les décisions sans dépendre d'un remote.
+

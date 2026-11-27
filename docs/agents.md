@@ -26,16 +26,16 @@ Convention spécifique à ce projet:
 
 ## Ordre de lecture minimal
 
-1. [vision.md](C:/project/coco3/docs/vision.md)
-2. [product-spec.md](C:/project/coco3/docs/product-spec.md)
-3. [current-state.md](C:/project/coco3/docs/current-state.md)
-4. [mcp-cold-start.md](C:/project/coco3/docs/mcp-cold-start.md)
-5. [mcp-local-smoke-test.md](C:/project/coco3/docs/mcp-local-smoke-test.md)
-6. Dernière session dans [sessions/](C:/project/coco3/docs/sessions/)
-7. Dernière rétro dans [retrospectives/](C:/project/coco3/docs/retrospectives/)
-8. Décisions dans [decisions/](C:/project/coco3/docs/decisions/)
+1. [vision.md](/docs/vision.md)
+2. [product-spec.md](/docs/product-spec.md)
+3. [current-state.md](/docs/current-state.md)
+4. [mcp-cold-start.md](/docs/mcp-cold-start.md)
+5. [mcp-local-smoke-test.md](/docs/mcp-local-smoke-test.md)
+6. Dernière session dans [sessions/](/docs/sessions/)
+7. Dernière rétro dans [retrospectives/](/docs/retrospectives/)
+8. Décisions dans [decisions/](/docs/decisions/)
 
-## Règles d’écriture (discoverability)
+## Règles d'écriture (discoverability)
 
 - Une info importante = un endroit clair (pas de duplication diffuse).
 - Séparer:
@@ -99,13 +99,13 @@ Quand un agent crée ou modifie un document:
 1. Note de session (template)
 2. Rétro (template)
 3. Mise à jour état courant
-4. Si nécessaire, création d’une décision (ADR légère)
+4. Si nécessaire, création d'une décision (ADR légère)
 5. **Commande de revalidation utilisateur** (copiable telle quelle)
 
 ## Place du verbatim (recommandée)
 
 Le verbatim vaut la peine pour:
-- préserver l’intention originale,
+- préserver l'intention originale,
 - garder une trace historique utile,
 - permettre une extraction future de signaux (priorités, contraintes, risques, décisions implicites).
 
@@ -116,3 +116,4 @@ Règle pratique: stocker du verbatim **court et ciblé** (extraits), pas des tra
 - thème,
 - pourquoi cet extrait est important,
 - tags de recherche.
+

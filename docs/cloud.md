@@ -1,10 +1,10 @@
 # Cloud / outillage distant (v0)
 
-Ce projet est local pour l’instant. Ce document prépare une future ouverture (wiki/site/partage).
+Ce projet est local pour l'instant. Ce document prépare une future ouverture (wiki/site/partage).
 
 Note de vocabulaire: ce fichier concerne le **cloud** (outillage distant), pas
 **Claude** (assistant). En cas d'ambiguïté de dictée, se référer à
-[agents.md](C:/project/coco3/docs/agents.md).
+[agents.md](/docs/agents.md).
 
 ## Principes
 
@@ -17,7 +17,7 @@ Note de vocabulaire: ce fichier concerne le **cloud** (outillage distant), pas
 ## Local machine profile (agent-friendly)
 
 Pour les validations MCP locales, les chemins de référence sont conservés dans
-[mcp-cold-start.md](C:/project/coco3/docs/mcp-cold-start.md).
+[mcp-cold-start.md](/docs/mcp-cold-start.md).
 
 Ces chemins restent un **profil local de machine** (pratique en solo), pas une
 contrainte cloud. Si l'environnement change, mettre à jour ce seul point
@@ -43,3 +43,4 @@ d'entrée.
 - Architecture de base validée
 - Flux de test reproductible
 - Documentation nettoyée (sans brouillons sensibles)
+

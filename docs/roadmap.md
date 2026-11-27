@@ -7,6 +7,10 @@ Le projet progresse en parallèle sur:
 - Track S: software/toolchain
 - Track R: recherche/documentation
 
+Principe d'architecture à conserver:
+- **l'API de contrôle est le contrat fonctionnel** (ce que le système fait) ;
+- **MCP est un mode d'exposition/orchestration pour les agents** (comment on y accède).
+
 ## Phase 1 — Baseline et inventaire
 
 ### H
@@ -34,7 +38,7 @@ Le projet progresse en parallèle sur:
 - Construire A0: session MAME dédiée, observation et preuves.
 - Construire A1/A2: charger puis créer Hello World par agent.
 - Définir protocole de test des commandes selon
-  [agent-automation-roadmap.md](C:/project/coco3/docs/agent-automation-roadmap.md).
+  [agent-automation-roadmap.md](/docs/agent-automation-roadmap.md).
 
 ### R
 - Cartographier les références techniques des composants CoCo 3.
@@ -43,7 +47,7 @@ Le projet progresse en parallèle sur:
 
 ### H
 - Prototyper un premier scénario de contrôle matériel.
-- Valider une stratégie d’observation d’affichage.
+- Valider une stratégie d'observation d'affichage.
 
 ### S
 - Stabiliser une mini-surface API synchrone locale.
@@ -69,3 +73,4 @@ Le projet progresse en parallèle sur:
 - Packaging des résultats
 - Choix plateforme de publication
 - Plan de communication
+

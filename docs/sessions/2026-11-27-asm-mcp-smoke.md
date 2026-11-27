@@ -21,11 +21,11 @@ Reproduce the BASIC automation pattern for an assembly path:
    - LWTOOLS `lwasm` for 6809 assembly and DECB output;
    - ToolShed `decb` for DSK creation and file copy.
 2. Added assembly sample:
-   - [hello_world.asm](C:/project/coco3/automation/asm/hello_world.asm).
+   - [hello_world.asm](/automation/asm/hello_world.asm).
 3. Added MCP-driven automation script:
-   - [run_hello_asm_via_mcp.ps1](C:/project/coco3/automation/mcp/run_hello_asm_via_mcp.ps1).
+   - [run_hello_asm_via_mcp.ps1](/automation/mcp/run_hello_asm_via_mcp.ps1).
 4. Added procedure doc:
-   - [mcp-asm-smoke-test.md](C:/project/coco3/docs/mcp-asm-smoke-test.md).
+   - [mcp-asm-smoke-test.md](/docs/mcp-asm-smoke-test.md).
 5. Ran the flow and collected artifacts in
    `automation/mcp/output/asm-20261127T144923/`.
 
@@ -60,3 +60,4 @@ Reproduce the BASIC automation pattern for an assembly path:
 1. Add a second ASM scenario (e.g., ROM API-only output without direct screen mirror).
 2. Replace fixed waits with a readiness predicate where possible.
 3. Extract common MCP smoke helpers shared by BASIC and ASM scripts.
+

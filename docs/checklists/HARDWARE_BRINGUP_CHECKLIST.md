@@ -3,10 +3,11 @@
 - [ ] Sortir le CoCo 3 de la boîte
 - [ ] Vérifier alimentation
 - [ ] Vérifier câbles vidéo/audio
-- [ ] Vérifier câbles d’extension
+- [ ] Vérifier câbles d'extension
 - [ ] Tester démarrage nominal
 - [ ] Noter tout symptôme anormal
 - [ ] Documenter photos/références utiles
-- [ ] Mettre à jour [current-state.md](C:/project/coco3/docs/current-state.md)
+- [ ] Mettre à jour [current-state.md](/docs/current-state.md)
 - [ ] Créer note de session
 - [ ] Faire rétro de session
+

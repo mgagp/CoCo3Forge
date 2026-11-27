@@ -15,7 +15,7 @@
 - Décision ADR-0002: utiliser une session MAME dédiée, Lua dans MAME et Python
   comme lanceur hôte.
 - Création d'une roadmap A0 à A5 dans
-  [agent-automation-roadmap.md](C:/project/coco3/docs/agent-automation-roadmap.md).
+  [agent-automation-roadmap.md](/docs/agent-automation-roadmap.md).
 - Création de `automation/mame/run_smoke.py`.
 - Création du scénario MAME Lua `automation/mame/smoke.lua`.
 - Isolation des configurations, NVRAM, différences et preuves dans un
@@ -44,7 +44,7 @@ est donc une propriété nécessaire de l'automatisation initiale.
 ## Questions ouvertes
 - Comment synchroniser l'envoi clavier après que Disk Extended BASIC est prêt?
 - Quelle observation structurée peut éviter de dépendre d'un OCR fragile?
-- Comment confirmer depuis la machine émulée qu'un `LOAD` a réussi?
+- Comment confirmer depuis la machine émulée qu'un `LOAD` a réussi?
 
 ## Prochaines actions
 1. Créer A1: envoyer les commandes `LOAD "HELLO/BAS"` puis `RUN`.
@@ -54,3 +54,4 @@ est donc une propriété nécessaire de l'automatisation initiale.
 4. Faire valider `HELLO.BAS` indépendamment avec `imgtool`.
 5. Évaluer en fork le serveur MCP de dbowlin, sans remplacer encore ce dépôt,
    selon l'évaluation documentaire dédiée.
+
